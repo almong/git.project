@@ -7,11 +7,9 @@ wss.onmessage = (msg) => {
     JSON.stringify(data);
     if (data.event ==='info'){
         console.log('Подключение установленно, версия сервера '+data.version);
-    
     }
     if (data.event ==='subscribed'){
-        console.log('Подписка на трейд в паре '+data.pair+ ' оформлена');
-        
+        console.log('Подписка на трейд в паре '+data.pair+ ' оформлена');  
     }
 }
 wss.onopen = () => {
