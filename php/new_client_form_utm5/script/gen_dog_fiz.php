@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php
-=======
-﻿<?php
->>>>>>> 81d8a2d0fe59527e934d6f97eaa88076af6dd345
 require_once 'vendor/autoload.php';
 //Разбираем название тарифного плана
 	$tarif_arrey = array();
@@ -68,11 +64,7 @@ if  ($_POST['add_user']=='on'){
 //Соединение с UTM
 $urfa = URFAClient::init(array(
     'login'    => 'portal',
-<<<<<<< HEAD
-    'password' => 'ghjdjlybr',
-=======
     'password' => 'portal',
->>>>>>> 81d8a2d0fe59527e934d6f97eaa88076af6dd345
     'address'  => '172.16.1.52',
     'protocol' => 'tls',
 	));
