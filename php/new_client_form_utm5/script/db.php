@@ -2,7 +2,11 @@
     $host = 'localhost';
     $database = 'UTM5';
     $user = 'portal';
+<<<<<<< HEAD
     $password = 'ghjdjlybr';
+=======
+    $password = 'portal';
+>>>>>>> 81d8a2d0fe59527e934d6f97eaa88076af6dd345
 
 $sql = "SELECT `AUTO_INCREMENT`
         FROM  INFORMATION_SCHEMA.TABLES
