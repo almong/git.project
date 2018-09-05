@@ -1,4 +1,8 @@
+Создаем бесплатный А+ сертификат
+
 https://certbot.eff.org/lets-encrypt/debianstretch-nginx
+Устанавливаем openssl.
+Переходим в директорию с сертификатами и запускаем: ```openssl dhparam -out dhparam.pem 4096```
 ```
 server {
 	listen 80;
